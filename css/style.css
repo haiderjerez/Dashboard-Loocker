@@ -16,6 +16,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 123, 0, 0.808);
     width: 600px;
+    height: 670px;
     text-align: center;
 }
 
@@ -32,6 +33,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(255, 123, 0, 0.3);
     width: 90%;
+    height: 170px;
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
