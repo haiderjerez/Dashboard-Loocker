@@ -3,29 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de Iframes</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/style_login.css">
 </head>
 <body>
-    <div class="container">
-        <h2>Galería de Reportes</h2>
-        <div class="iframe-grid">
-            <div class="iframe-box" onclick="window.location.href='./iframe.html'">
-                <img src="../img/logo_principal_telemundo.jpg" alt="Reporte 1">
-                <h3>Reporte Financiero</h3>
-                <p>Resumen detallado de ingresos y gastos.</p>
-            </div>
-            <div class="iframe-box" onclick="window.location.href='iframe2.html'">
-                <img src="../img/Sony_Channel_Logo.png" alt="Reporte 2">
-                <h3>Reporte de Ventas</h3>
-                <p>Análisis de ventas mensuales y proyección.</p>
-            </div>
-            <div class="iframe-box" onclick="window.location.href='iframe3.html'">
-                <img src="../img/logo_shark_tank.jpg" alt="Reporte 3">
-                <h3>Reporte de Usuarios</h3>
-                <p>Estadísticas y comportamiento de usuarios.</p>
-            </div>
-        </div>
+
+    <div class="login-container">
+        <img class="logo_betr" src="../img/logo_betr.png" alt="logo_betr">
+        <h2>Iniciar Sesión</h2>
+
+        <form id="loginForm" action="index.html">
+            <input type="text" id="username" placeholder="Usuario" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit">Entrar</button>
+        </form>
+
+        <!--<p class="register-link">¿No tienes cuenta? <a href="#">Regístrate</a></p> -->
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
